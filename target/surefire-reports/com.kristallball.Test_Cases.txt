@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.kristallball.Test_Cases
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.10 s -- in com.kristallball.Test_Cases

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for Buildout">
+    <test name = "Test Cases for Buildout">
+       <classes>          
+            <class name="com.kristallball.testcases">
+                 <methods>
+                      <include name = "Testcase_01()"/>
+                      <include name = "Testcase_02()"/>
+                      <include name = "Testcase_03()"/>
+                      <include name = "Testcase_04()"/>
+                      <include name = "Testcase_05()"/>
+                      <include name = "Testcase_06()"/>
+                      <include name = "Testcase_07()"/>
+                 </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
