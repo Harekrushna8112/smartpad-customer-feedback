@@ -26,7 +26,7 @@ Project Structure
                     Wrapper.java
                     resources
                        testng.xml
-        Terget
+        Target
         pom.xml
         README.md
 
@@ -49,7 +49,7 @@ Test Scenarios
      Product feedback validation
      Search product and validate rating
 
-Auther
+Author
  Harekrushna Biswal
 
 

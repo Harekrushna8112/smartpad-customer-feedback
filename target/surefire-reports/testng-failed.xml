@@ -5,9 +5,12 @@
     <classes>
       <class name="com.kristallball.Test_Cases">
         <methods>
+          <include name="startTest"/>
           <include name="createDriver"/>
-          <include name="Testcase_07"/>
           <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="Testcase_04"/>
+          <include name="setupSuite"/>
         </methods>
       </class> <!-- com.kristallball.Test_Cases -->
     </classes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kristallball.Test_Cases" time="51.1" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.kristallball.Test_Cases" time="117.371" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\Miransh\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Miransh\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\Miransh\Desktop\project\kristalball\project\target\test-classes;C:\Users\Miransh\Desktop\project\kristalball\project\target\classes;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Miransh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Miransh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Miransh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Miransh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Miransh\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Miransh\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Miransh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Miransh\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Miransh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Miransh\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Miransh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Miransh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Miransh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Miransh\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Miransh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Miransh\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Miransh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Miransh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
@@ -13,12 +13,11 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="26"/>
-    <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Miransh\AppData\Local\Temp\surefire7282462123462048760\surefirebooter-20260510225809584_3.jar C:\Users\Miransh\AppData\Local\Temp\surefire7282462123462048760 2026-05-10T22-58-09_329-jvmRun1 surefire-20260510225809584_1tmp surefire_0-20260510225809584_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Miransh\AppData\Local\Temp\surefire15764339513608354577\surefirebooter-20260519154114640_3.jar C:\Users\Miransh\AppData\Local\Temp\surefire15764339513608354577 2026-05-19T15-41-14_331-jvmRun1 surefire-20260519154114640_1tmp surefire_0-20260519154114640_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.kristallball.Test_Cases#Testcase_03"/>
     <property name="surefire.test.class.path" value="C:\Users\Miransh\Desktop\project\kristalball\project\target\test-classes;C:\Users\Miransh\Desktop\project\kristalball\project\target\classes;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Miransh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Miransh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Miransh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Miransh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Miransh\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Miransh\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Miransh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Miransh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Miransh\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Miransh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Miransh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Miransh\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Miransh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Miransh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Miransh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Miransh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Miransh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Miransh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Miransh\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Miransh\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Miransh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Miransh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Miransh\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Miransh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Miransh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Miransh"/>
@@ -32,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Miransh\AppData\Local\Temp\surefire7282462123462048760\surefirebooter-20260510225809584_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Miransh\AppData\Local\Temp\surefire15764339513608354577\surefirebooter-20260519154114640_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="26.0.1+8-34"/>
@@ -43,7 +42,6 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Users\Miransh\.vscode\extensions\oracle.oracle-java-25.1.0\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Miransh\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Miransh\AppData\Local\Temp\"/>
@@ -53,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-26.0.1\bin;C:\Program Files\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin;C:\Users\Miransh\AppData\Local\Microsoft\WindowsApps;C:\Users\Miransh\AppData\Roaming\npm;C:\Users\Miransh\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Miransh\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Miransh\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-26.0.1\bin;C:\Program Files\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin;C:\Users\Miransh\AppData\Local\Microsoft\WindowsApps;C:\Users\Miransh\AppData\Roaming\npm;C:\Users\Miransh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Miransh\AppData\Local\Temp\_MEI40002\pygame;c:\Users\Miransh\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -62,17 +60,111 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="Testcase_03" classname="com.kristallball.Test_Cases" time="46.398">
-    <system-out><![CDATA[Test Case 03 is Started...
-Test Case 03 is Completed...
+  <testcase name="Testcase_01" classname="com.kristallball.Test_Cases" time="2.961">
+    <system-out><![CDATA[Old screenshots deleted successfully
+2026-05-19T15:41:19.325927300 | INFO | Testcase_01 | Test Started
+Test Case 01 is Started...
+2026-05-19T15:41:19.330913800 | INFO | Testcase_01 | Testing the navigation to the website and validate the home page...
+2026-05-19T15:41:19.332908700 | INFO | Verifying the website... | PASSED
+2026-05-19T15:41:21.691927300 | INFO | Website is verified successfully... | PASSED
+2026-05-19T15:41:22.292675 | INFO | Validating the home page... | PASSED
+2026-05-19T15:41:22.323753400 | INFO | Text is displayed... | PASSED
+2026-05-19T15:41:22.365567400 | INFO | Home page is validated successfully... | PASSED
+2026-05-19T15:41:22.365567400 | INFO | Testcase_01 | Navigation to the website and validate the home page test is passed...
+Test Case 01 is Completed...
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-May 10, 2026 10:58:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 147
-May 10, 2026 10:58:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 147.0.7727.138. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 3:41:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 3:41:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
+  </testcase>
+  <testcase name="Testcase_02" classname="com.kristallball.Test_Cases" time="1.225">
+    <system-out><![CDATA[2026-05-19T15:41:22.375542900 | INFO | Testcase_01 | Test Passed
+2026-05-19T15:41:22.380527900 | INFO | Testcase_02 | Test Started
+Test Case 02 is Started...
+2026-05-19T15:41:22.382524 | INFO | Testcase_02 | Testing the products types ...
+2026-05-19T15:41:23.449969300 | INFO | Text is displayed... | PASSED
+2026-05-19T15:41:23.627351300 | INFO | Found 10 products. | PASSED
+2026-05-19T15:41:23.627351300 | INFO | Testcase_02 | Product types test is passed ...
+Test Case 02 is Completed...
+]]></system-out>
+  </testcase>
+  <testcase name="Testcase_03" classname="com.kristallball.Test_Cases" time="4.707">
+    <system-out><![CDATA[2026-05-19T15:41:23.627351300 | INFO | Testcase_02 | Test Passed
+2026-05-19T15:41:23.627351300 | INFO | Testcase_03 | Test Started
+Test Case 03 is Started...
+2026-05-19T15:41:23.645135 | INFO | Testcase_03 | Testing with invalid Login credentials...
+2026-05-19T15:41:24.472442500 | INFO | Product Wine is not found in this iteration... | PASSED
+2026-05-19T15:41:24.582637600 | INFO | Product Wine is found. | PASSED
+2026-05-19T15:41:28.350826700 | INFO | Invalid Credentials message is displayed successfully... | PASSED
+2026-05-19T15:41:28.350826700 | INFO | Testcase_03 | Invalid credentials test is passed...
+Test Case 03 is Completed...
+]]></system-out>
+  </testcase>
+  <testcase name="Testcase_04" classname="com.kristallball.Test_Cases" time="2.732">
+    <system-out><![CDATA[2026-05-19T15:41:28.353686400 | INFO | Testcase_03 | Test Passed
+2026-05-19T15:41:28.353686400 | INFO | Testcase_04 | Test Started
+Test Case 04 is Started...
+2026-05-19T15:41:28.353686400 | INFO | Testcase_04 | Testing the registration process ...
+2026-05-19T15:41:29.111064100 | INFO | Product Wine is not found in this iteration... | PASSED
+2026-05-19T15:41:29.228313400 | INFO | Product Wine is found. | PASSED
+2026-05-19T15:41:30.955136900 | INFO | Age Popup is displayed ... | PASSED
+2026-05-19T15:41:31.085215200 | INFO | Testcase_04 | Resistration test is failed ...
+2026-05-19T15:41:31.085215200 | INFO | Testcase_04 | Registration process test is failed...
+Test Case 04 is Completed...
+]]></system-out>
+  </testcase>
+  <testcase name="Testcase_05" classname="com.kristallball.Test_Cases" time="26.055">
+    <system-out><![CDATA[2026-05-19T15:41:31.085215200 | INFO | Testcase_04 | Test Passed
+2026-05-19T15:41:31.085215200 | INFO | Testcase_05 | Test Started
+Test Case 05 is Started...
+2026-05-19T15:41:31.085215200 | INFO | Testcase_05 | Testing the continue without an account and Successful feedback submition ...
+2026-05-19T15:41:31.850447900 | INFO | Product Wine is not found in this iteration... | PASSED
+2026-05-19T15:41:31.951419700 | INFO | Product Wine is found. | PASSED
+2026-05-19T15:41:32.699292400 | INFO | Testcase_05 | Continue without an account test is passed ...
+2026-05-19T15:41:43.787941100 | INFO | AgePopup is not displayed ... | PASSED
+2026-05-19T15:41:43.787941100 | INFO | Testcase_05 | Submitting feedback test is started ...
+2026-05-19T15:41:57.143148500 | INFO | Feedback form is submitted successfully... | PASSED
+2026-05-19T15:41:57.143148500 | INFO | Testcase_05 | Feedback submition test is passed ...
+Test Case 05 is Completed...
+]]></system-out>
+  </testcase>
+  <testcase name="Testcase_06" classname="com.kristallball.Test_Cases" time="22.755">
+    <system-out><![CDATA[2026-05-19T15:41:57.143148500 | INFO | Testcase_05 | Test Passed
+2026-05-19T15:41:57.143148500 | INFO | Testcase_06 | Test Started
+Test Case 06 is Started...
+2026-05-19T15:41:57.158771700 | INFO | Testcase_06 | Testing the error message for incomplete feedback form ...
+2026-05-19T15:41:58.465847500 | INFO | Product Wine is not found in this iteration... | PASSED
+2026-05-19T15:41:58.564411100 | INFO | Product Wine is found. | PASSED
+2026-05-19T15:42:09.882047 | INFO | AgePopup is not displayed ... | PASSED
+2026-05-19T15:42:19.913592900 | INFO | Error message for incomplete feedback form is displayed... | PASSED
+2026-05-19T15:42:19.913592900 | INFO | Testcase_06 | Error message for incomplete feedback form test is passed ...
+Test Case 06 is Completed...
+]]></system-out>
+  </testcase>
+  <testcase name="Testcase_07" classname="com.kristallball.Test_Cases" time="51.896">
+    <system-out><![CDATA[2026-05-19T15:42:19.913592900 | INFO | Testcase_06 | Test Passed
+2026-05-19T15:42:19.913592900 | INFO | Testcase_07 | Test Started
+Test Case 07 is Started...
+2026-05-19T15:42:19.913592900 | INFO | Testcase_07 | Testing search product and validate rating ...
+2026-05-19T15:42:20.824014900 | INFO | Product Gin is found. | PASSED
+2026-05-19T15:42:20.824014900 | INFO | Testcase_07 | Testing search product  ...
+2026-05-19T15:42:32.785573900 | INFO | AgePopup is not displayed ... | PASSED
+2026-05-19T15:42:32.785573900 | INFO | Testcase_07 | Searching product: Beefeater Pink
+2026-05-19T15:42:39.052340900 | INFO | Actual Product name is: Beefeater Pink | PASSED
+2026-05-19T15:42:39.053337400 | INFO | Testcase_07 | Search product test is passed ...
+2026-05-19T15:42:39.053337400 | INFO | Testcase_07 | Validating rating after submitting feedback ...
+2026-05-19T15:42:39.081816300 | INFO | Number of feedbacks for the product: 61 | PASSED
+2026-05-19T15:42:49.506912600 | INFO | Feedback form is submitted successfully... | PASSED
+2026-05-19T15:43:06.623290400 | INFO | AgePopup is not displayed ... | PASSED
+2026-05-19T15:43:11.821395600 | INFO | Number of feedbacks for the product: 62 | PASSED
+2026-05-19T15:43:11.821395600 | INFO | Testcase_07 | Number of rating is increasing by 1 ...
+2026-05-19T15:43:11.821395600 | INFO | Testcase_07 | Search product and validate rating test is passed ...
+Test Case 07 is Completed...
+]]></system-out>
   </testcase>
 </testsuite>
