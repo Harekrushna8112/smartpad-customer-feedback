@@ -43,6 +43,7 @@ public class Product {
         List<WebElement> productTypes= driver.findElements
              (By.xpath("//a[@class='rounded-[15px]']"));
         wait.until(ExpectedConditions.visibilityOfAllElements(productTypes));
+        int iteration=1;
         for(WebElement productType: productTypes){
             if(productType.getText().equalsIgnoreCase(productName)){
                 Assert.assertTrue(productType.isDisplayed(), "Product " + productName + " is not displayed...");
@@ -50,15 +51,17 @@ public class Product {
 
                 LoggerUtil.logStatus(
                     "INFO",
-                     "Product " + productName + " is found.",
+                     "Product " + productName + " is found in this iteration- "+iteration,
                       "PASSED");
                 return;
             }else{
                 LoggerUtil.logStatus(
                     "INFO",
-                     "Product " + productName + " is not found in this iteration...",
-                      "PASSED");
+                     "Product " + productName + " is not found in this iteration- "+iteration,
+                      "FAILED");
+                
             }
+            iteration++;
         }       
 
     }

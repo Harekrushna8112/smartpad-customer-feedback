@@ -2,241 +2,241 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T15:41:16 IST" name="Surefire suite" finished-at="2026-05-19T15:43:12 IST" duration-ms="116393">
+  <suite started-at="2026-05-20T18:08:11 IST" name="Surefire suite" finished-at="2026-05-20T18:10:11 IST" duration-ms="119616">
     <groups>
     </groups>
-    <test started-at="2026-05-19T15:41:16 IST" name="Surefire test" finished-at="2026-05-19T15:43:12 IST" duration-ms="116393">
-      <class name="com.kristallball.Test_Cases">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:16 IST" name="setupSuite" finished-at="2026-05-19T15:41:16 IST" duration-ms="22" status="PASS">
+    <test started-at="2026-05-20T18:08:11 IST" name="Surefire test" finished-at="2026-05-20T18:10:11 IST" duration-ms="119616">
+      <class name="com.kristallball.TestCases.Test_Cases">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:11 IST" name="setupSuite" finished-at="2026-05-20T18:08:11 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:16 IST" name="createDriver" finished-at="2026-05-19T15:41:19 IST" duration-ms="3074" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:11 IST" name="createDriver" finished-at="2026-05-20T18:08:16 IST" duration-ms="4939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:19 IST" name="startTest" finished-at="2026-05-19T15:41:19 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:16 IST" name="startTest" finished-at="2026-05-20T18:08:16 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_01() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.HomePage() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Testcase_01()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:19 IST" name="Testcase_01" finished-at="2026-05-19T15:41:22 IST" duration-ms="3039" status="PASS">
+        <test-method signature="HomePage()[pri:1, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:16 IST" name="HomePage" finished-at="2026-05-20T18:08:21 IST" duration-ms="4834" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase_01 -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:22 IST" name="endTest" finished-at="2026-05-19T15:41:22 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:21 IST" name="endTest" finished-at="2026-05-20T18:08:21 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_01 status=SUCCESS method=Test_Cases.Testcase_01()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Test_Cases.HomePage()[pri:1, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_01() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.HomePage() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:22 IST" name="startTest" finished-at="2026-05-19T15:41:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:21 IST" name="startTest" finished-at="2026-05-20T18:08:21 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_02() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.ProductTypes() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Testcase_02()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:22 IST" name="Testcase_02" finished-at="2026-05-19T15:41:23 IST" duration-ms="1246" status="PASS">
+        <test-method signature="ProductTypes()[pri:2, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:21 IST" name="ProductTypes" finished-at="2026-05-20T18:08:23 IST" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase_02 -->
-        <test-method signature="Testcase_03()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:23 IST" name="Testcase_03" finished-at="2026-05-19T15:41:28 IST" duration-ms="4723" status="PASS">
+        </test-method> <!-- ProductTypes -->
+        <test-method signature="LogIn()[pri:3, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:23 IST" name="LogIn" finished-at="2026-05-20T18:08:28 IST" duration-ms="5191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase_03 -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:23 IST" name="startTest" finished-at="2026-05-19T15:41:23 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- LogIn -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:23 IST" name="startTest" finished-at="2026-05-20T18:08:23 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_03() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.LogIn() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:23 IST" name="endTest" finished-at="2026-05-19T15:41:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:23 IST" name="endTest" finished-at="2026-05-20T18:08:23 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_02 status=SUCCESS method=Test_Cases.Testcase_02()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
+                <![CDATA[[TestResult name=ProductTypes status=SUCCESS method=Test_Cases.ProductTypes()[pri:2, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_02() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.ProductTypes() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method signature="Testcase_04()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:28 IST" name="Testcase_04" finished-at="2026-05-19T15:41:31 IST" duration-ms="2732" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase_04 -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:28 IST" name="endTest" finished-at="2026-05-19T15:41:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:28 IST" name="startTest" finished-at="2026-05-20T18:08:28 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_03 status=SUCCESS method=Test_Cases.Testcase_03()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_03() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:28 IST" name="startTest" finished-at="2026-05-19T15:41:28 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_04() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Registration() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Testcase_05()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:31 IST" name="Testcase_05" finished-at="2026-05-19T15:41:57 IST" duration-ms="26058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase_05 -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:31 IST" name="endTest" finished-at="2026-05-19T15:41:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:28 IST" name="endTest" finished-at="2026-05-20T18:08:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_04 status=SUCCESS method=Test_Cases.Testcase_04()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
+                <![CDATA[[TestResult name=LogIn status=SUCCESS method=Test_Cases.LogIn()[pri:3, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_04() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.LogIn() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:31 IST" name="startTest" finished-at="2026-05-19T15:41:31 IST" duration-ms="0" status="PASS">
+        <test-method signature="Registration()[pri:4, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:28 IST" name="Registration" finished-at="2026-05-20T18:08:31 IST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:31 IST" name="endTest" finished-at="2026-05-20T18:08:31 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_05() throws java.lang.InterruptedException]]>
+                <![CDATA[[TestResult name=Registration status=SUCCESS method=Test_Cases.Registration()[pri:4, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Registration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:31 IST" name="startTest" finished-at="2026-05-20T18:08:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Successful_feedback() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:57 IST" name="endTest" finished-at="2026-05-19T15:41:57 IST" duration-ms="0" status="PASS">
+        <test-method signature="Successful_feedback()[pri:5, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:31 IST" name="Successful_feedback" finished-at="2026-05-20T18:08:57 IST" duration-ms="25860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successful_feedback -->
+        <test-method signature="Unsuccessful_feedback()[pri:6, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:57 IST" name="Unsuccessful_feedback" finished-at="2026-05-20T18:09:19 IST" duration-ms="21641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsuccessful_feedback -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:57 IST" name="endTest" finished-at="2026-05-20T18:08:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_05 status=SUCCESS method=Test_Cases.Testcase_05()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
+                <![CDATA[[TestResult name=Successful_feedback status=SUCCESS method=Test_Cases.Successful_feedback()[pri:5, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_05() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Successful_feedback() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:57 IST" name="startTest" finished-at="2026-05-19T15:41:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:08:57 IST" name="startTest" finished-at="2026-05-20T18:08:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_06() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Unsuccessful_feedback() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Testcase_06()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:41:57 IST" name="Testcase_06" finished-at="2026-05-19T15:42:19 IST" duration-ms="22755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase_06 -->
-        <test-method signature="Testcase_07()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:42:19 IST" name="Testcase_07" finished-at="2026-05-19T15:43:11 IST" duration-ms="51908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase_07 -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:42:19 IST" name="startTest" finished-at="2026-05-19T15:42:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:09:19 IST" name="endTest" finished-at="2026-05-20T18:09:19 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_07() throws java.lang.InterruptedException]]>
+                <![CDATA[[TestResult name=Unsuccessful_feedback status=SUCCESS method=Test_Cases.Unsuccessful_feedback()[pri:6, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.Unsuccessful_feedback() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="SearchProductAndRating()[pri:7, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:09:19 IST" name="SearchProductAndRating" finished-at="2026-05-20T18:10:11 IST" duration-ms="51838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductAndRating -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:09:19 IST" name="startTest" finished-at="2026-05-20T18:09:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.SearchProductAndRating() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:42:19 IST" name="endTest" finished-at="2026-05-19T15:42:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:10:11 IST" name="endTest" finished-at="2026-05-20T18:10:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testcase_06 status=SUCCESS method=Test_Cases.Testcase_06()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
+                <![CDATA[[TestResult name=SearchProductAndRating status=SUCCESS method=Test_Cases.SearchProductAndRating()[pri:7, instance:com.kristallball.TestCases.Test_Cases@402e37bc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_06() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.kristallball.TestCases.Test_Cases.SearchProductAndRating() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:43:11 IST" name="endTest" finished-at="2026-05-19T15:43:11 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Testcase_07 status=SUCCESS method=Test_Cases.Testcase_07()[pri:0, instance:com.kristallball.Test_Cases@402e37bc] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.kristallball.Test_Cases.Testcase_07() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.kristallball.TestCases.Test_Cases@402e37bc]" started-at="2026-05-20T18:10:11 IST" name="endTest" finished-at="2026-05-20T18:10:11 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.kristallball.Test_Cases@402e37bc]" started-at="2026-05-19T15:43:11 IST" name="endTest" finished-at="2026-05-19T15:43:12 IST" duration-ms="707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.kristallball.Test_Cases -->
+      </class> <!-- com.kristallball.TestCases.Test_Cases -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

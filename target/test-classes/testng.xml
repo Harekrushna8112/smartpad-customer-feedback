@@ -5,13 +5,13 @@
        <classes>          
             <class name="com.kristallball.testcases">
                  <methods>
-                      <include name = "Testcase_01()"/>
-                      <include name = "Testcase_02()"/>
-                      <include name = "Testcase_03()"/>
-                      <include name = "Testcase_04()"/>
-                      <include name = "Testcase_05()"/>
-                      <include name = "Testcase_06()"/>
-                      <include name = "Testcase_07()"/>
+                      <include name = "HomePage()"/>
+                      <include name = "ProductTypes()"/>
+                      <include name = "LogIn()"/>
+                      <include name = "Registration()"/>
+                      <include name = "Successful_feedback()"/>
+                      <include name = "Unsuccessful_feedback()"/>
+                      <include name = "SearchProductAndRating()"/>
                  </methods>
             </class>
         </classes>

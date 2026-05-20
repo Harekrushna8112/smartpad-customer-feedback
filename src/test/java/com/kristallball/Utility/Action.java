@@ -1,4 +1,4 @@
-package com.kristallball;
+package com.kristallball.Utility;
 
 import java.time.Duration;
 import java.util.List;
@@ -8,8 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.kristallball.Utility.LoggerUtil;
 
 public class Action {
 

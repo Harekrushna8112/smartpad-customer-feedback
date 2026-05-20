@@ -17,15 +17,24 @@ Project Structure
            main
                 Java\com\kristallball
                     Main.java
-                    resources
+                resources
            test
                 Java\com\kristallball
-                    Login_Test.java
-                    Resister_Test.java
-                    Test_cases.java
-                    Wrapper.java
-                    resources
-                       testng.xml
+                    TestCases
+                        Test_Cases.java
+                    Utility
+                        Action.java
+                        LoggerUtil.java
+                        ScreenshotUtil.java
+                    Wrapper
+                        FormFilling.java
+                        HomePage.java
+                        Login.java
+                        Product.java
+                        Register.java
+                        Search.java
+                resources
+                    testng.xml
         Target
         pom.xml
         README.md

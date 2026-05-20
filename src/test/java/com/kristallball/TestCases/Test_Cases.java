@@ -1,4 +1,4 @@
-package com.kristallball;
+package com.kristallball.TestCases;
 
 import java.lang.reflect.Method;
 import java.time.Duration;
@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.kristallball.Utility.Action;
 import com.kristallball.Utility.LoggerUtil;
 import com.kristallball.Utility.ScreenshotUtil;
 import com.kristallball.Wrappers.FormFilling;
@@ -59,8 +60,8 @@ public class Test_Cases {
 
 
 
-    @Test
-    public void Testcase_01() throws InterruptedException{
+    @Test(priority=1)
+    public void HomePage() throws InterruptedException{
         System.out.println("Test Case 01 is Started...");
         LoggerUtil.logStatus(
             "INFO",
@@ -79,8 +80,8 @@ public class Test_Cases {
        
     }
 
-    @Test
-    public void Testcase_02() throws InterruptedException{
+    @Test(priority=2)
+    public void ProductTypes() throws InterruptedException{
         System.out.println("Test Case 02 is Started...");
         LoggerUtil.logStatus(
             "INFO",
@@ -99,8 +100,8 @@ public class Test_Cases {
        
     }
 
-    @Test
-    public void Testcase_03() throws InterruptedException{
+    @Test(priority=3)
+    public void LogIn() throws InterruptedException{
         System.out.println("Test Case 03 is Started...");
         
         LoggerUtil.logStatus(
@@ -123,8 +124,8 @@ public class Test_Cases {
        
     }
 
-    @Test
-    public void Testcase_04() throws InterruptedException{
+    @Test(priority=4)
+    public void Registration() throws InterruptedException{
         System.out.println("Test Case 04 is Started...");
         LoggerUtil.logStatus(
             "INFO",
@@ -176,8 +177,8 @@ public class Test_Cases {
 
         System.out.println("Test Case 04 is Completed...");
     }
-    @Test
-    public void Testcase_05() throws InterruptedException{
+    @Test(priority=5)
+    public void Successful_feedback() throws InterruptedException{
         System.out.println("Test Case 05 is Started...");
         
         LoggerUtil.logStatus(
@@ -221,8 +222,8 @@ public class Test_Cases {
        
     }
 
-    @Test
-    public void Testcase_06() throws InterruptedException{
+    @Test(priority=6)
+    public void Unsuccessful_feedback() throws InterruptedException{
         System.out.println("Test Case 06 is Started...");
         
         LoggerUtil.logStatus(
@@ -250,8 +251,8 @@ public class Test_Cases {
        
     }
 
-    @Test
-    public void Testcase_07() throws InterruptedException{
+    @Test(priority=7)
+    public void SearchProductAndRating() throws InterruptedException{
         System.out.println("Test Case 07 is Started...");
         
         LoggerUtil.logStatus(

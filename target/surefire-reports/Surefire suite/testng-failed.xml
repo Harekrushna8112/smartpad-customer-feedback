@@ -3,16 +3,17 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.kristallball.Test_Cases">
+      <class name="com.kristallball.TestCases.Test_Cases">
         <methods>
-          <include name="startTest"/>
-          <include name="createDriver"/>
-          <include name="endTest"/>
-          <include name="endTest"/>
-          <include name="Testcase_04"/>
+          <include name="LogIn"/>
           <include name="setupSuite"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="Registration"/>
+          <include name="createDriver"/>
         </methods>
-      </class> <!-- com.kristallball.Test_Cases -->
+      </class> <!-- com.kristallball.TestCases.Test_Cases -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
